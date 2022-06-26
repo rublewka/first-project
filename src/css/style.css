@@ -1,0 +1,23 @@
+h1,.chapter,.dialog, .importent-word {
+    text-align: center;
+}
+h1,.chapter {
+    color: red;
+    font-size: 150;
+    font-weight: 100;
+}
+.dialog {
+    font-style: italic;
+}
+.importent-word {
+    font-weight: 700;
+    font-style: italic;
+}
+.author {
+    text-transform: uppercase ;
+    font-weight: 100;
+    font-size: medium;
+}
+main {
+    background-color: rgb(200, 200, 100);
+}
