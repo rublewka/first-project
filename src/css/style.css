@@ -14,6 +14,11 @@ h1,
   font-size: 50px;
   font-weight: 100;
 }
+img {
+  width: 500px;
+  display: block;
+  margin: 0 auto;
+}
 .dialog {
   font-style: italic;
 }
@@ -30,6 +35,8 @@ main {
   background-color: rgb(200, 200, 100);
 }
 .box {
+  position: absolute;
+  display: inline-block;
   /* box-sizing: border-box; */
   text-align: center;
   width: 300px;
@@ -42,4 +49,30 @@ main {
     border-color: black; */
   border: 15px ridge red;
   margin: 10px auto;
+  z-index: 3;
 }
+nav {
+  font-size: 45px;
+  /* position: static; */
+  /* position: relative; */
+  /* right: 30px;
+  top: 150px;
+  bottom: ;
+  left: ; */
+  position: inherit;
+  left: 0px;
+  top: 0;
+}
+.example {
+
+  /* text-align: center; */
+
+  position: relative;
+}
+.red {
+  left: 30px;
+  background-color: red;
+  position: absolute;
+  z-index: 4;
+}
+
